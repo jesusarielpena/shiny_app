@@ -4,7 +4,7 @@ This shiny application was developed following some of the shiny tutorials on th
 
 The aplication will show a census visualization of the united states using data from the 2010 US census.
 
-A map of teh different states is displayed on teh right side of the app.
+A map of the different states is displayed on teh right side of the app.
 
 On the left side the user can pick one of the diferent variables including: white, black, hispanic and asian people.
 
