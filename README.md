@@ -1,8 +1,8 @@
 # shiny_app
 
-This shiny application was developed following some of the shiny tutorials on the web.
+This shiny application was developed following some of the shiny tutorials from R Studio online.
 
-The aplication will show a census visualization of the united states using data from the 2010 US census.
+The aplication will show a map containing a census visualization of the united states using data from the 2010 US census.
 
 A map of the different states is displayed on teh right side of the app.
 
