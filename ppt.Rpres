@@ -1,0 +1,75 @@
+Shiny App for Census 2010
+========================================================
+author:  ARIEL PENA
+date: OCTOBER-27-2016
+
+Details about the application
+========================================================
+
+This application will serve as a tool to create demographic maps with information
+with the 2010 US Census. The data presented and displayed on teh map will cover four diferent races.
+
+- White People
+- Black People
+- Hispanic People
+- Asian People
+
+The following slides will show you some of the outputs from the application depending the race selected.
+
+Map of the White People
+========================================================
+This map displays the distribution of white people among the different counties of the  United States 
+
+
+
+```{r, echo=FALSE}
+library(maps)
+library(mapproj)
+setwd("C:/Users/penajes2/Documents/R/census-app")
+source("helpers.R")
+counties <- readRDS("data/counties.rds")
+percent_map(counties$white, "darkblue", "%darkblue")
+
+
+```
+
+Map of the Black People
+========================================================
+This map displays the distribution of black people among the different counties of the United States
+
+
+
+```{r,echo=FALSE}
+percent_map(counties$black,"black","%black")
+```
+
+Map of the Asian People
+========================================================
+This map displays the distribution of asian people among the different counties of the United States
+
+
+
+```{r,echo=FALSE}
+percent_map(counties$asian,"orange","%orange")
+```
+
+Map of the Hispanic People
+========================================================
+
+
+
+This map displays the distribution of hispanic people among the different counties of the United States
+
+
+
+```{r, echo=FALSE}
+percent_map(counties$hispanic,"red","%red")
+
+
+```
+
+THANKS
+========================================================
+
+
+
